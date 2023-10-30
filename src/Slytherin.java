@@ -62,11 +62,11 @@ class Slytherin extends Hogwarts{
         int summaSvoistv1 = this.summaSvoistv();
         int summaSvoistv2 = slytherin.summaSvoistv();
         if (summaSvoistv1 > summaSvoistv2) {
-            System.out.println("Грифиндорец " + getName() + " лучше грифиндорца " + slytherin.getName() + ": " + summaSvoistv1 + " баллов VS " + summaSvoistv2);
+            System.out.println("Слизеринец " + getName() + " лучше слизеринца " + slytherin.getName() + ": " + summaSvoistv1 + " баллов VS " + summaSvoistv2);
         } else if (summaSvoistv1 < summaSvoistv2) {
-            System.out.println("Грифиндорец " + slytherin.getName() + " лучше грифиндорца " + getName() + ": " + summaSvoistv2 + " баллов VS " + summaSvoistv1);
+            System.out.println("Слизеринец " + slytherin.getName() + " лучше слизеринца " + getName() + ": " + summaSvoistv2 + " баллов VS " + summaSvoistv1);
         } else {
-            System.out.println("Грифиндорец " + getName() + " равен грифиндорца " + slytherin.getName() + ": " + summaSvoistv1 + " баллов VS " + summaSvoistv2);
+            System.out.println("Слизеринец " + getName() + " равен слизеринцу " + slytherin.getName() + ": " + summaSvoistv1 + " баллов VS " + summaSvoistv2);
         }
     }
 

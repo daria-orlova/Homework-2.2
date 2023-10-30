@@ -52,11 +52,11 @@ public class Kogtevran extends Hogwarts{
         int summaSvoistv1 = this.summaSvoistv();
         int summaSvoistv2 = kogtevran.summaSvoistv();
         if (summaSvoistv1 > summaSvoistv2) {
-            System.out.println("Грифиндорец " + getName() + " лучше грифиндорца " + kogtevran.getName() + ": " + summaSvoistv1 + " баллов VS " + summaSvoistv2);
+            System.out.println("Когтевранец " + getName() + " лучше когтевранца " + kogtevran.getName() + ": " + summaSvoistv1 + " баллов VS " + summaSvoistv2);
         } else if (summaSvoistv1 < summaSvoistv2) {
-            System.out.println("Грифиндорец " + kogtevran.getName() + " лучше грифиндорца " + getName() + ": " + summaSvoistv2 + " баллов VS " + summaSvoistv1);
+            System.out.println("Когтевранец " + kogtevran.getName() + " лучше когтевранца " + getName() + ": " + summaSvoistv2 + " баллов VS " + summaSvoistv1);
         } else {
-            System.out.println("Грифиндорец " + getName() + " равен грифиндорца " + kogtevran.getName() + ": " + summaSvoistv1 + " баллов VS " + summaSvoistv2);
+            System.out.println("Когтевранец " + getName() + " равен когтевранцу " + kogtevran.getName() + ": " + summaSvoistv1 + " баллов VS " + summaSvoistv2);
         }
     }
 
